@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/BornaSadeghi/htn2021#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "latest",
+    "pg-connection-string": "latest",
+    "prompt": "latest"
   },
   "devDependencies": {
     "concurrently": "^6.2.1"
