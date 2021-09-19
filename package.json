@@ -20,8 +20,16 @@
   },
   "homepage": "https://github.com/BornaSadeghi/htn2021#readme",
   "dependencies": {
+<<<<<<< HEAD
     "@craco/craco": "^6.3.0",
     "express": "^4.17.1"
+=======
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "latest",
+    "pg-connection-string": "latest",
+    "prompt": "latest"
+>>>>>>> cceffd9b9458afd17245da3e42a06a1db82fbf5b
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
