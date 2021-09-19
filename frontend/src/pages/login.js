@@ -1,25 +1,26 @@
 import { LockClosedIcon } from '@heroicons/react/solid'
 import logo from "../images/logo1.svg"
 import image from "../images/sign_in_image.svg"
+import {Link} from 'react-router-dom';
 
-export default function Example() {
+export default function Login() {
   return (
     
-    <div className="min-h-screen py-12 px-2 sm:px-auto lg:px-auto inset-x-2">
+    <div className="min-h-screen py-20 sm:px-auto lg:px-auto inset-x-2">
       <div className="border-solid rounded-xl border-grey">
         <div className="float-right">
             <img
-              className="right-50 px-20 py-10 object-scale-down"
+              className="px-20 py-10 object-scale-down"
               src={image}
-              alt="Workflow"
+              alt="Login"
             />
         </div>
-        <div className="max-w-md w-full mx-20 my-20">
+        <div className="max-w-md w-full mx-20 my-10">
           <div>
             <img
               className="h-10 w-auto"
               src={logo}
-              alt="Workflow"
+              alt="Logo"
             />
             <h2 className="mt-6 text-left text-4xl font-inter text-gray-900 my-10">Sign in to your account</h2>
           </div>
@@ -68,9 +69,7 @@ export default function Example() {
               </div>
 
               <div className="text-sm">
-                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                  Don't have an account?
-                </a>
+                <Link to="/signup" className="font-medium text-indigo-600 hover:text-indigo-500">Don't have an account?</Link>
               </div>
             </div>
             <div>
@@ -81,7 +80,7 @@ export default function Example() {
                 <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                   <LockClosedIcon className="h-5 w-5 text-pink-500 group-hover:text-pink-400" aria-hidden="true" />
                 </span>
-                Sign in
+                Login
               </button>
             </div>
           </form>
