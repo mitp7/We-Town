@@ -96,13 +96,13 @@ export default function SignUp() {
                             <input
                                 type="text"
                                 name="state"
-                                id="state"
+                                id="state" 
                                 className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm my-1"
                             />
                             </div>
 
                             <div className="col-span-6 sm:col-span-4 lg:col-span-2">
-                            <label htmlFor="country" className="block text-sm font-sans text-gray-700">
+                            <label htmlFor="country" className="block text-sm pl-2 font-sans text-gray-700">
                                 Country
                             </label>
                             <select
