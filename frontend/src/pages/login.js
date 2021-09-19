@@ -9,12 +9,12 @@ export default function Example() {
       <div className="border-solid rounded-xl border-grey">
         <div className="float-right">
             <img
-              className="right-50 px-20 py-10"
+              className="right-50 px-20 py-10 object-scale-down"
               src={image}
               alt="Workflow"
             />
         </div>
-        <div className="max-w-md w-full mx-40 my-20">
+        <div className="max-w-md w-full mx-20 my-20">
           <div>
             <img
               className="h-10 w-auto"
